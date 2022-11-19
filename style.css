@@ -36,6 +36,17 @@ footer {
 .header-logo {
   font-size: 24px;
   color: var(--header-logo-text-color);
+  float: left;
+}
+
+.nav-elem {
+  float: right;
+}
+
+.nav {
+  height: 10vh;
+  width: 80%;
+  margin: auto;
 }
 
 .quote-section {
@@ -47,4 +58,29 @@ footer {
   font-weight: lighter;
   font-style: italic;
   color: var(--quote-text-color);
+}
+
+.nav > ul {
+  list-style: none;
+  padding: 0.7em;
+}
+
+.nav > ul > li {
+  display: inline;
+  margin: 0.5em;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+section,
+.signup {
+  width: 80%;
+  margin: auto;
+}
+
+.signup {
+  display: flex;
 }
