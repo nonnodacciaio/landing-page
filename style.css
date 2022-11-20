@@ -1,3 +1,4 @@
+/*Setup*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
@@ -16,6 +17,8 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+/*Header and nav*/
 
 header,
 footer {
@@ -37,8 +40,9 @@ footer {
   padding-bottom: 0.5em;
 }
 
-.placeholder-image>img {
-  width: 500px;
+.placeholder-image > img {
+  width: 100%;
+  margin: auto;
 }
 
 .placeholder-image {
@@ -60,15 +64,17 @@ footer {
   float: left;
 }
 
-.nav-elem {
-  float: right;
-}
-
 .nav {
   height: 10vh;
   width: 80%;
   margin: auto;
 }
+
+.nav-elems {
+  float: right;
+}
+
+/*Section info*/
 
 .info > h2 {
   text-align: center;
@@ -93,6 +99,8 @@ footer {
   border: var(--btn-color) 2px solid;
   border-radius: 10px;
 }
+
+/*Quote*/
 
 .quote-section {
   background-color: var(--quote-bg-color);
@@ -119,20 +127,13 @@ footer {
   width: 80%;
 }
 
-.nav > ul {
-  list-style: none;
-  padding: 0.7em;
-}
-
-.nav > ul > li {
-  display: inline;
+.nav > div > a {
   margin: 0.5em;
-}
-
-.nav > ul > li > a {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
+
+/*Signup*/
 
 section,
 .signup {
@@ -175,6 +176,8 @@ section,
   background-color: var(--btn-color);
   color: var(--secondary-text-color)
 }
+
+/*Footer*/
 
 footer {
   color: var(--secondary-text-color);
