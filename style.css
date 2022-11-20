@@ -70,11 +70,36 @@ footer {
   margin: auto;
 }
 
+.info > h2 {
+  text-align: center;
+  padding: 2em;
+  font-size: 36px;
+  font-weight: bolder;
+  color: var(--info-header-text-color);
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  padding: 2em 0 5em 0;
+}
+
+.card > img {
+  width: inherit;
+  border: var(--btn-color) 2px solid;
+  border-radius: 10px;
+}
+
 .quote-section {
   background-color: var(--quote-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5rem 0 5rem 0;
 }
 
 .quote {
@@ -82,6 +107,12 @@ footer {
   font-weight: lighter;
   font-style: italic;
   color: var(--quote-text-color);
+}
+
+.signature {
+  padding: 0.5em;
+  font-weight: bolder;
+  float: right;
 }
 
 .quote-block {
