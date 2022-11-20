@@ -20,17 +20,38 @@
 header,
 footer {
   background-color: var(--dark-bg-color);
+  width: 100%;
+  padding: 2em;
 }
 
 .main-text {
   font-size: 48px;
   font-weight: bolder;
   color: var(--main-text-color);
+  padding-bottom: 0.5em;
 }
 
 .secondary-text {
   font-size: 18px;
   color: var(--secondary-text-color);
+  padding-bottom: 0.5em;
+}
+
+.placeholder-image>img {
+  width: 500px;
+}
+
+.placeholder-image {
+  padding: 0.5em;
+}
+
+.header-signup-button {
+  border: none;
+  color: var(--header-logo-text-color);
+  background-color: var(--btn-color);
+  padding: 0.5em;
+  border-radius: 8px;
+  width: 8rem;
 }
 
 .header-logo {
@@ -51,6 +72,9 @@ footer {
 
 .quote-section {
   background-color: var(--quote-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote {
@@ -58,6 +82,10 @@ footer {
   font-weight: lighter;
   font-style: italic;
   color: var(--quote-text-color);
+}
+
+.quote-block {
+  width: 80%;
 }
 
 .nav > ul {
@@ -77,10 +105,12 @@ footer {
 
 section,
 .signup {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
 .signup {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
